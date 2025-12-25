@@ -37,17 +37,18 @@ This project is designed to demonstrate end-to-end RAG architecture and is suita
 # Project Structure
 
 rag-langchain-groq/
-│
-├── app.py # Main RAG application
-├── data/ # PDF files for ingestion
-├── .gitignore # Git ignore rules
-├── README.md # Project documentation
+
+- app.py # Main RAG application
+- data/ # PDF files for ingestion
+- .gitignore # Git ignore rules
+- README.md # Project documentation
 
 # Setup Instructions
 
 1️. Clone the repository
 
 git clone https://github.com/suchithra-25/rag-langchain-groq.git
+
 cd rag-langchain-groq
 
 2️. Create and activate virtual environment
