@@ -1,6 +1,6 @@
-==================================================
+
 PDF-based RAG System using LangChain, FAISS & Groq
-==================================================
+
 
 # Overview
 
@@ -24,15 +24,15 @@ This project is designed to demonstrate end-to-end RAG architecture and is suita
 
 # Tech Stack
 
-Python
+-Python
 
-LangChain
+-LangChain
 
-FAISS (Vector Database)
+-FAISS (Vector Database)
 
-Groq API (LLM inference)
+-Groq API (LLM inference)
 
-HuggingFace Embeddings (all-MiniLM-L6-v2)
+-HuggingFace Embeddings (all-MiniLM-L6-v2)
 
 # Project Structure
 
@@ -77,12 +77,12 @@ Generate an answer using Groq LLM
 
 # Sample Output
 
-================ ANSWER ================
 The document explains the recruitment process of Federal Bank including eligibility criteria, test structure, and service agreements.
-========================================
+
 
 # Author
 
 Suchithra B
+
 Aspiring AI / LLM Engineer
 
