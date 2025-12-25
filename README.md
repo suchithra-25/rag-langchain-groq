@@ -1,14 +1,14 @@
 
-PDF-based RAG System using LangChain, FAISS & Groq
+#PDF-based RAG System using LangChain, FAISS & Groq
 
 
-# Overview
+## Overview
 
 This project implements a Retrieval-Augmented Generation (RAG) system that allows users to ask questions over PDF documents.
 The system retrieves relevant chunks from the PDF using FAISS vector search and generates accurate answers using Groq-hosted LLMs via LangChain.
 This project is designed to demonstrate end-to-end RAG architecture and is suitable for showcasing to recruiters as a practical LLM application.
 
-# Architecture
+## Architecture
 
 1.PDF Loader – Loads PDF documents from the data/ directory
 
@@ -22,7 +22,7 @@ This project is designed to demonstrate end-to-end RAG architecture and is suita
 
 6.LLM (Groq) – Generates final answers using retrieved context
 
-# Tech Stack
+## Tech Stack
 
 -Python
 
@@ -34,7 +34,7 @@ This project is designed to demonstrate end-to-end RAG architecture and is suita
 
 -HuggingFace Embeddings (all-MiniLM-L6-v2)
 
-# Project Structure
+## Project Structure
 
 rag-langchain-groq/
 
@@ -46,7 +46,7 @@ rag-langchain-groq/
 
 ├── README.md # Project documentation
 
-# Setup Instructions
+## Setup Instructions
 
 1️. Clone the repository
 
@@ -72,7 +72,7 @@ setx GROQ_API_KEY "your_groq_api_key"
 
 Restart terminal after this.
 
-# Running the Application
+## Running the Application
 
 python app.py
 
@@ -82,12 +82,12 @@ Retrieve relevant content from the PDF
 
 Generate an answer using Groq LLM
 
-# Sample Output
+## Sample Output
 
 The document explains the recruitment process of Federal Bank including eligibility criteria, test structure, and service agreements.
 
 
-# Author
+## Author
 
 Suchithra B
 
