@@ -37,7 +37,7 @@ This project is designed to demonstrate end-to-end RAG architecture and is suita
 # Project Structure
 
 rag-langchain-groq/
-│
+
 ├── app.py # Main RAG application
 
 ├── data/ # PDF files for ingestion
@@ -77,7 +77,9 @@ Restart terminal after this.
 python app.py
 
 You will be prompted to enter a query. The system will:
+
 Retrieve relevant content from the PDF
+
 Generate an answer using Groq LLM
 
 # Sample Output
