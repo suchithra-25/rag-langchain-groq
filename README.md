@@ -37,11 +37,14 @@ This project is designed to demonstrate end-to-end RAG architecture and is suita
 # Project Structure
 
 rag-langchain-groq/
+│
+├── app.py # Main RAG application
 
-- app.py # Main RAG application
-- data/ # PDF files for ingestion
-- .gitignore # Git ignore rules
-- README.md # Project documentation
+├── data/ # PDF files for ingestion
+
+├── .gitignore # Git ignore rules
+
+├── README.md # Project documentation
 
 # Setup Instructions
 
@@ -54,6 +57,7 @@ cd rag-langchain-groq
 2️. Create and activate virtual environment
 
 python -m venv venv
+
 venv\Scripts\activate # Windows
 
 3️. Install dependencies
